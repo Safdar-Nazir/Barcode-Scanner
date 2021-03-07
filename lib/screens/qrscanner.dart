@@ -72,10 +72,10 @@ class _QRCodeScannerState extends State<QRCodeScanner> {
                 direction: Axis.vertical,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  RaisedButton(
+                  ElevatedButton(
                       onPressed: () => scanBarcodeNormal(),
                       child: Text("Start barcode scan")),
-                  RaisedButton(
+                  ElevatedButton(
                       onPressed: () => scanQR(), child: Text("Start QR scan")),
                   Text('Scan result : $_scanBarcode\n',
                       style: TextStyle(fontSize: 20))

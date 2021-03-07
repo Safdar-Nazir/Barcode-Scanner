@@ -1,4 +1,3 @@
-import 'package:barcode_scanner/screens/qrscanner.dart';
 import 'package:barcode_scanner/screens/scanner.dart';
 import 'package:flutter/material.dart';
 
